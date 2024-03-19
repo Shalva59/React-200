@@ -5,7 +5,7 @@ const Header = ({navigation}) => {
   return (
    <header>
     <nav>
-      <ul>
+      <ul className='flex'>
         {navigation.map((item , index)=>
         (
           <NavItem key={index} item={item}/>
